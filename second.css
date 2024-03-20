@@ -1,0 +1,46 @@
+.top,.bottom{
+    background-color: #00ffff;
+    justify-content: space-between;
+    display: flex;
+}
+.left{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(130, 227, 242);
+}
+.title{
+    justify-content: space-between;
+}
+.middle{
+    display: flex;
+}
+.right{
+    width: 65%;
+    display: flex;
+    background-color: greenyellow;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.left img{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10%;
+    border:solid black 2px;
+}
+.right img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10%;
+    border:solid black 2px;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    border: transparent;
+}
